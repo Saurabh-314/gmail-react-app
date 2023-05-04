@@ -1,6 +1,7 @@
 import { Drawer, styled } from "@mui/material";
 
 import SideBarContent from "./SideBarContent";
+import ComposeMail from "./ComposeMail";
 
 const StyledDrawer = styled(Drawer)`
     margin-top: 54px;
@@ -28,6 +29,7 @@ const SideBar = ({ toggleDrawer, openDrawer }) => {
       }}
     >
       <SideBarContent />
+      <ComposeMail />
     </StyledDrawer>
   )
 }
